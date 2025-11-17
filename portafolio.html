@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Portafolio</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+<!-- jQuery (opcional) -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- CSS local (ajusta la ruta si es necesario) -->
+<link rel="stylesheet" href="css/portafolio.css">
+
+<!-- Font + Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+<script src="script/portafolio.js"></script>
+</head>
+<body>
+
+<div class="container-fluid p-0">
+  <div class="row g-0">
+
+    <!-- Bloque Izquierdo -->
+    <div class="col-12 col-md-4 left-panel d-flex flex-column justify-content-center align-items-center text-white">
+        <div class="profile-image mb-4">
+            <img src="img/mifoto2.jpg" alt="fotitomia" class="profile-pic">
+        </div>
+        <div class="fondo">
+            <img src="img/fondo.png" class="adorno" alt="nada">
+        </div>
+        <h1 class="mb-4 mt-5" >&lt;/&gt; Maximiliano Garrido</h1>
+        <p class="text-center mb-5 px-3">
+        Desarrollador Full Stack Python/Django en formación<br/>
+        Diseño de animaciones 3D en Blender
+        </p>
+
+        <nav class="d-flex flex-column gap-3 w-75">
+            <a href="#" class="btn btn-outline-light w-100 section-btn active" data-section="inicio">Inicio</a>
+            <a href="#" class="btn btn-outline-light w-100 section-btn" data-section="proyectos">Proyectos</a>
+            <a href="#" class="btn btn-outline-light w-100 section-btn" data-section="resumen">Sobre mi</a>
+            <a href="#" class="btn btn-outline-light w-100 section-btn" data-section="otros">Otros Proyectos</a>
+            <a href="#" class="btn btn-outline-light w-100 section-btn" data-section="contacto">Contacto</a>
+        </nav>
+    </div>
+
+    <!-- Área Derecha dinámicamente cambiable -->
+    <div class="col-12 col-md-8 p-4">
+      <!-- INICIO (visible por defecto) -->
+      <div class="section active" id="section-inicio">
+        <h2>Bienvenido</h2>
+        <p>Hola — este es mi portafolio. Usa el menú a la izquierda para navegar entre secciones.</p>
+        <hr/>
+        <p>Puedes mostrar aquí una breve presentación, enlaces a redes y/o una foto.</p>
+      </div>
+
+      <!-- PROYECTOS (tus 6 cards) -->
+      <div class="section" id="section-proyectos">
+        <div class="filters">
+            <button class="btn all" data-filter="all">Todos</button>
+            <button class="btn python" data-filter="python">Python</button>
+            <button class="btn django" data-filter="django">Django</button>
+            <button class="btn sql" data-filter="sql">SQL</button>
+        </div>
+
+        <div class="projects">
+            <div class="project python django">Proyecto A</div>
+            <div class="project sql">Proyecto B</div>
+            <div class="project java sql">Proyecto C</div>
+            <div class="project python">Proyecto D</div>
+        </div>
+        <h2 class="mb-3">Mis Proyectos</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 1</h5>
+                <p class="card-text">Descripción breve del proyecto 1. Tech: Django, Bootstrap.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 2</h5>
+                <p class="card-text">Descripción breve del proyecto 2. Tech: Blender, WebGL.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 3</h5>
+                <p class="card-text">Descripción breve del proyecto 3. Tech: React, API REST.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 4</h5>
+                <p class="card-text">Descripción breve del proyecto 4. Tech: Python, Data.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 5</h5>
+                <p class="card-text">Descripción breve del proyecto 5. Tech: Mobile, Flutter.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 6</h5>
+                <p class="card-text">Descripción breve del proyecto 6. Tech: DevOps, CI/CD.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESUMEN -->
+      <div class="section" id="section-resumen">
+        <h2>Resumen</h2>
+        <p>Breve resumen profesional / CV. Puedes listar experiencia, habilidades y educación.</p>
+      </div>
+
+      <!-- OTROS -->
+      <div class="section" id="section-otros">
+        <h2>Otros Proyectos</h2>
+        <p>Proyectos experimentales, prototipos o demos.</p>
+      </div>
+
+      <!-- CONTACTO -->
+      <div class="section" id="section-contacto">
+        <h2>Contacto</h2>
+        <p>Email: ejemplo@correo.com</p>
+        <p>LinkedIn / GitHub / Twitter</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Script para alternar secciones y marcar botón activo -->
+<script>
+(function () {
+  const buttons = document.querySelectorAll('.section-btn');
+  const sections = document.querySelectorAll('.section');
+
+  function showSection(name) {
+    sections.forEach(s => s.classList.remove('active'));
+    const el = document.getElementById('section-' + name);
+    if (el) el.classList.add('active');
+  }
+
+  function setActiveButton(clicked) {
+    buttons.forEach(b => b.classList.remove('active'));
+    clicked.classList.add('active');
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      const sec = this.dataset.section;
+      showSection(sec);
+      setActiveButton(this);
+    });
+  });
+
+  // opcional: mostrar la sección indicada por hash en la URL al cargar
+  const hash = window.location.hash.replace('#','');
+  if (hash && document.getElementById('section-' + hash)) {
+    showSection(hash);
+    // marcar el botón correspondiente si existe
+    const btn = document.querySelector('.section-btn[data-section="' + hash + '"]');
+    if (btn) setActiveButton(btn);
+  }
+})();
+
+document.querySelectorAll(".filters button").forEach(btn => {
+    btn.addEventListener("click", () => {
+        const filter = btn.dataset.filter;
+
+        document.querySelectorAll(".project").forEach(p => {
+            if (filter === "all" || p.classList.contains(filter)) {
+                p.style.display = "block";
+            } else {
+                p.style.display = "none";
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>
