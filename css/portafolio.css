@@ -65,13 +65,16 @@
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+    justify-content: center;  /* CENTRA horizontalmente */
 }
 
 /* Estilos de botones de tecnología */
 .btn.all,
 .btn.python,
 .btn.django,
-.btn.sql {
+.btn.sql,
+.btn.html,
+.btn.javascript {
     padding: 10px 18px;
     border: none;
     border-radius: 8px;
@@ -85,6 +88,8 @@
 .btn.python { background-color: #3776AB; }
 .btn.django { background-color: #092E20; }
 .btn.sql { background-color: #D9534F; }
+.btn.javascript { background-color: #0d7415; }
+.btn.html { background-color: #d3489e; }
 
 /* Hover general */
 .btn:hover {
@@ -119,4 +124,11 @@
 h1, h2, h3, p, nav, .projects, .filters {
     position: relative;
     z-index: 10;
+}
+
+.gestortareas {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    left: 100px;
 }
