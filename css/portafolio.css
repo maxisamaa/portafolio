@@ -127,8 +127,31 @@ h1, h2, h3, p, nav, .projects, .filters {
 }
 
 .gestortareas {
-    position: relative;
-    width: 270px;
-    height: 270px;
-    left: 100px;
+    width: 50%;        /* ocupa todo el ancho disponible */
+    aspect-ratio: 1/1;        /* mantiene proporción */
+    /*object-fit: cover;  /* recorta si es necesario sin deformar */
+    display: block;
+    margin-left: auto;        /* centra */
+    margin-right: auto;       /* centra */
+    padding: 0;   
+}
+
+/*links */
+
+.nolink {
+  text-decoration: none;   /* sin subrayado */
+  color: inherit;          /* mantiene el color original */
+}
+
+.nolink:hover,
+.nolink:visited,
+.nolink:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* misproyectos */
+
+#misproyectos {
+    color: #1b2bbb;
 }
