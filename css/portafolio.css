@@ -76,6 +76,8 @@
 .btn.html,
 .btn.javascript {
     padding: 10px 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
