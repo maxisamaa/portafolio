@@ -51,10 +51,24 @@
     <div class="col-12 col-md-8 p-4">
       <!-- INICIO (visible por defecto) -->
       <div class="section active" id="section-inicio">
-        <h2>Bienvenido</h2>
-        <p>Hola — este es mi portafolio. Usa el menú a la izquierda para navegar entre secciones.</p>
-        <hr/>
-        <p>Puedes mostrar aquí una breve presentación, enlaces a redes y/o una foto.</p>
+        <h1 class="Bienvenido">Bienvenido</h1>
+        <div class="alert alert-primary fs-5 py-3 mt-4 mb-4">
+           Hola! Este es mi portafolio. Usa el menú a la izquierda para navegar entre secciones.
+        </div>
+        <div class="d-flex justify-content-center my-4 mt-5">
+          <div class="card shadow-lg border-0" style="max-width: 650px;">
+            <div class="card-body text-center p-3">
+              <h4 class="fw-semibold">
+                Soy Maximiliano Garrido, desarrollador web en formación, con una fuerte orientación a crear interfaces limpias, funcionales y responsivas. Combino creatividad, diseño gráfico especializado y programación para transformar ideas en experiencias digitales modernas y visualmente coherentes. Mi formación técnica no solo abarca el desarrollo web, sino también conocimientos en matemáticas y ciencias naturales pues tengo un grado academico de bachiller en ciencias naturales, lo que me permite abordar proyectos con precisión, lógica y una visión integral. Busco siempre unir estética, funcionalidad y buenas prácticas para entregar resultados claros, eficientes y con una identidad visual sólida.
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="horizontal-gallery">
+          <img src="img/creativity.jpg" alt="Imagen 1">
+          <img src="img/cleancode.jpg" alt="Imagen 2">
+          <img src="img/cowork.jpg" alt="Imagen 3">
+        </div>
       </div>
 
       <!-- PROYECTOS (tus 6 cards) -->
@@ -70,12 +84,12 @@
         <h2 class="mb-4 text-center" id="misproyectos">Mis Proyectos</h2>
         <div class=" row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
           <!-- Card 1 -->
-          <div class="col project python django">
+          <div class="col project python django sql javascript">
             <div class="card shadow-sm h-100">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://github.com/maxisamaa/proyecto-final" class="nolink">Maxisama-notes : Proyecto final bootcamp Skillnest </a> </h5>
                 <a target="_blank" href="https://github.com/maxisamaa/proyecto-final" class="nolink"><img src="img/gestortareas.jpg" alt="gestor tareas" class="gestortareas"></a>
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi cupiditate ipsa fuga culpa hic accusantium sint corrupti, tenetur delectus dolorem doloribus voluptates expedita voluptatibus vero ad obcaecati, commodi repellendus illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo minima neque praesentium nulla magnam voluptas exercitationem totam sint labore doloribus veritatis quo, doloremque sit! </p>
+                <p class="card-text">Desarrollé una aplicación en Python con el framework Django bajo el patrón MTV, enfocada en la gestión organizada de tareas. El sistema permite crear, editar y administrar tareas clasificándolas por proximidad temporal (corto, mediano o largo plazo), prioridad y tipo, lo que facilita visualizar qué actividades requieren atención inmediata. La plataforma incluye un conjunto de filtros avanzados que permiten buscar tareas por categoría, estado o palabras clave, mejorando la navegación y el control del usuario. Además, incorpora un CRUD completo para gestionar referencias de textos relacionadas con cada tarea, permitiendo documentar, justificar o complementar el contenido de cada actividad. Este proyecto integra lógica backend, diseño de modelos relacionales y una interfaz limpia que facilita la planificación personal o académica. </p>
                 <button class="btn python">Python</button>
                 <button class="btn django">Django</button>
                 <button class="btn sql">SQL</button>
@@ -85,12 +99,12 @@
             </div>
           </div>
           <!-- Card 2 -->
-          <div class="col project javascript">
+          <div class="col project python django sql javascript">
             <div class="card shadow-sm h-100">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://github.com/maxisamaa/portafolio-modulo-7" class="nolink"> Biblioteca Maxisamaa </a> </h5>
                 <a target="_blank" href="https://github.com/maxisamaa/portafolio-modulo-7" class="nolink"><img src="img/biblio.jpg" alt="gestor tareas" class="gestortareas"></a>
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi cupiditate ipsa fuga culpa hic accusantium sint corrupti, tenetur delectus dolorem doloribus voluptates expedita voluptatibus vero ad obcaecati, commodi repellendus illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo minima neque praesentium nulla magnam voluptas exercitationem totam sint labore doloribus veritatis quo, doloremque sit! </p>
+                <p class="card-text">Desarrollé un sistema en Django basado en el patrón MTV para gestionar y organizar modelos de libros, etiquetas y géneros, permitiendo administrar catálogos de forma ordenada y eficiente. La aplicación permite registrar, editar y clasificar libros según su género principal y múltiples etiquetas temáticas, facilitando una organización flexible adaptable tanto a tiendas como a bibliotecas. Además, integra un sistema de filtros combinados que permite buscar libros por género, etiquetas o información específica del modelo, optimizando la localización de ejemplares dentro de un inventario amplio. Este proyecto permite gestionar stock, mantener un orden lógico dentro del catálogo y ofrecer una herramienta escalable para administración literaria profesional.</p>
                 <button class="btn python">Python</button>
                 <button class="btn django">Django</button>
                 <button class="btn sql">SQL</button>
@@ -99,12 +113,12 @@
             </div>
           </div>
           <!-- Card 3 -->
-          <div class="col project sql django">
+          <div class="col project python javascript">
             <div class="card shadow-sm h-100">
               <div class="card-body">
-                <h5 class="card-title"><a target="_blank" href="https://github.com/maxisamaa/cyberseguridad" class="nolink"> Front-ed Cyberseguridad</a> </h5>
+                <h5 class="card-title"><a target="_blank" href="https://github.com/maxisamaa/cyberseguridad" class="nolink"> Front-End Cyberseguridad</a> </h5>
                 <a target="_blank" href="https://github.com/maxisamaa/cyberseguridad" class="nolink"><img src="img/cyberseguridad.jpg" alt="gestor tareas" class="gestortareas"></a>
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi cupiditate ipsa fuga culpa hic accusantium sint corrupti, tenetur delectus dolorem doloribus voluptates expedita voluptatibus vero ad obcaecati, commodi repellendus illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo minima neque praesentium nulla magnam voluptas exercitationem totam sint labore doloribus veritatis quo, doloremque sit! </p>
+                <p class="card-text">Desarrollé una página web enfocada en ciberseguridad utilizando exclusivamente HTML, CSS y JavaScript, priorizando una estructura clara, contenido organizado y una experiencia visual coherente. El sitio presenta información clave sobre amenazas digitales, buenas prácticas de seguridad y herramientas de protección, distribuidas en secciones limpias y fáciles de navegar. A través de un diseño responsivo y tipografías bien jerarquizadas, la interfaz mantiene un estilo moderno y profesional, mientras que JavaScript aporta interactividad mediante menús dinámicos, animaciones suaves y componentes informativos. Este proyecto demuestra mi capacidad para construir interfaces front-end ordenadas, atractivas y orientadas a comunicar temas técnicos de forma accesible. </p>
                 <button class="btn python">Python</button>
                 <button class="btn javascript">HTML/CSS/Js</button>
 
@@ -112,12 +126,12 @@
             </div>
           </div>
           <!-- Card 4 -->
-          <div class="col project javascript django">
+          <div class="col project javascript django python sql">
             <div class="card shadow-sm h-100">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://github.com/maxisamaa/cinepedia" class="nolink"> Cinepedia</a> </h5>
                 <a target="_blank" href="https://github.com/maxisamaa/cinepedia" class="nolink"><img src="img/cinepedia.jpg" alt="gestor tareas" class="gestortareas"></a>
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi cupiditate ipsa fuga culpa hic accusantium sint corrupti, tenetur delectus dolorem doloribus voluptates expedita voluptatibus vero ad obcaecati, commodi repellendus illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo minima neque praesentium nulla magnam voluptas exercitationem totam sint labore doloribus veritatis quo, doloremque sit! </p>
+                <p class="card-text">Cinepedia es una aplicación desarrollada en Django bajo el patrón MTV, orientada a la gestión y exploración de información cinematográfica a través de modelos de Películas, Detalles y Usuarios. El sistema funciona como una versión sencilla y didáctica de IMDb, permitiendo organizar y consultar títulos mediante un CRUD totalmente operativo. Incluye un sistema de autenticación integrado que restringe las acciones según el usuario, asegurando que solo quienes tienen permisos puedan crear, editar o eliminar contenido. Además, incorpora filtros por género, año, director u otros atributos clave, lo que facilita la búsqueda y clasificación de películas dentro del catálogo. Este proyecto demuestra la integración de modelos relacionados, control de acceso y una arquitectura ordenada para construir plataformas de consulta y administración de contenidos audiovisuales. </p>
                 <button class="btn python">Python</button>
                 <button class="btn django">Django</button>
                 <button class="btn sql">SQL</button>
@@ -127,24 +141,24 @@
             </div>
           </div>
           <!-- Card 5 -->
-          <div class="col project sql">
+          <div class="col project python django">
             <div class="card shadow-sm h-100">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://github.com/maxisamaa/portafolio-6-auth-" class="nolink"> Recetario con autenticacion </a> </h5>
                 <a target="_blank" href="https://github.com/maxisamaa/portafolio-6-auth-" class="nolink"><img src="img/recetario.jpg" alt="gestor tareas" class="gestortareas"></a>
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi cupiditate ipsa fuga culpa hic accusantium sint corrupti, tenetur delectus dolorem doloribus voluptates expedita voluptatibus vero ad obcaecati, commodi repellendus illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo minima neque praesentium nulla magnam voluptas exercitationem totam sint labore doloribus veritatis quo, doloremque sit! </p>
+                <p class="card-text">Este proyecto es un recetario desarrollado en Django siguiendo el patrón MTV, diseñado para gestionar recetas, eventos gastronómicos y participantes asociados. Incluye un sistema de autenticación que controla el acceso al CRUD, permitiendo que solo usuarios registrados puedan crear, editar o eliminar recetas, mientras que la información pública puede consultarse libremente. El modelo principal organiza las recetas con sus ingredientes, pasos y categorías, mientras que otros modelos complementarios administran eventos y los participantes de cada uno, creando una estructura ideal para productoras culinarias o servicios de catering que necesiten una plataforma web para mostrar su oferta y, al mismo tiempo, gestionar internamente su inventario gastronómico y actividades programadas. Este proyecto destaca por su orden, correcta implementación de relaciones entre modelos y una arquitectura pensada para escalar y adaptarse a distintos tipos de negocios de comida. </p>
                 <button class="btn python">Python</button>
                 <button class="btn django">Django</button>
               </div>
             </div>
           </div>
           <!-- Card 6 -->
-          <div class="col project javascript sql">
+          <div class="col project sql">
             <div class="card shadow-sm h-100">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://github.com/maxisamaa/portafolio-modulo-5" class="nolink"> Base datos de tareas organicer </a> </h5>
                 <a target="_blank" href="https://github.com/maxisamaa/portafolio-modulo-5" class="nolink"><img src="img/sql orga.jpg" alt="gestor tareas" class="gestortareas"></a>
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi cupiditate ipsa fuga culpa hic accusantium sint corrupti, tenetur delectus dolorem doloribus voluptates expedita voluptatibus vero ad obcaecati, commodi repellendus illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo minima neque praesentium nulla magnam voluptas exercitationem totam sint labore doloribus veritatis quo, doloremque sit! </p>
+                <p class="card-text">Este proyecto consiste en un conjunto de sentencias SQL diseñadas para crear la estructura completa de una base de datos destinada a un organizador de tareas, funcionando como la versión “raw” de un sistema similar al desarrollado en Django. Incluye tablas para tareas, tipos, prioridades, proximidades temporales y referencias, además de todas sus relaciones mediante claves foráneas, garantizando integridad y coherencia entre los datos. La base de datos está pensada para soportar filtrado, clasificación y gestión eficiente de tareas según su importancia, urgencia y categoría, siendo una base sólida para aplicaciones futuras que necesiten construir un sistema de productividad desde cero, tanto en entornos web como de escritorio. Este proyecto demuestra un diseño limpio, normalizado y adaptable para sistemas de organización personal o profesional. </p>
                 <button class="btn sql">SQL</button>
               </div>
             </div>
@@ -154,14 +168,109 @@
 
       <!-- RESUMEN -->
       <div class="section" id="section-resumen">
-        <h2>Resumen</h2>
-        <p>Breve resumen profesional / CV. Puedes listar experiencia, habilidades y educación.</p>
+        <div class="cv-section">
+
+          <h2 class="mb-4">Curriculum Vitae</h2>
+
+          <div class="cv-header">
+            <h3 class="mb-3">Maximiliano Andrés Garrido Cornejo</h3>
+            <p>Región Metropolitana,Chile</p>
+            <p>Teléfono: +56 9 9777 8040</p>
+            <p>Email: maximiliano.garrido@ug.uchile.cl</p>
+          </div>
+
+          <hr>
+
+          <div class="cv-block">
+            <h4>Experiencia</h4>
+
+            <ul>
+              <li>
+                <strong>Fuerza Laboral EST LTDA – Asistente de Andén (Metro de Santiago)</strong>
+                <br>03/2017 – 08/2017
+                <br>Trabajo Part-Time realizado en paralelo con la universidad.
+              </li>
+
+              <li>
+                <strong>Tutor UCH – Tutor de Ciencias Físicas y Matemáticas</strong>
+                <br>06/2018 – Presente
+                <br>Apoyo escolar y universitario en ciencias; trabajo esporádico según demanda.
+              </li>
+
+              <li>
+                <strong>Starken – Cajero</strong>
+                <br>03/2024 – 09/2024
+                <br>Trabajo en modalidad part-time y full-time de manera lineal.
+              </li>
+            </ul>
+          </div>
+
+          <hr>
+
+          <div class="cv-block">
+            <h4>Formación</h4>
+
+            <ul>
+              <li>
+                <strong>Liceo Nacional de Maipú, Maipú</strong>
+                <br>2008 – 2013  
+                <br>Educación media completa.
+              </li>
+
+              <li>
+                <strong>Universidad de Chile</strong>
+                <br>03/2018 – 06/2020  
+                <br>Bachillerato en Ciencias Naturales
+              </li>
+            </ul>
+          </div>
+
+          <hr>
+
+          <div class="cv-block">
+            <h4>Idiomas</h4>
+            <ul>
+              <li>Inglés: B2
+                <br>Lectura y escritura: Medio  
+                <br>Hablado: Básico
+              </li>
+            </ul>
+          </div>
+
+          <hr>
+
+          <div class="cv-block">
+            <h4>Tecnología</h4>
+            <ul>
+              <li>Excel — Nivel intermedio</li>
+              <li>Python — Nivel intermedio</li>
+              <li>JavaScript — Nivel intermedio</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="cv-block">
+            <h4>Información Adicional</h4>
+
+            <ul>
+              <li>Disponibilidad: Inmediata</li>
+            </ul>
+          </div>
+
+        </div>
+
       </div>
 
       <!-- OTROS -->
       <div class="section" id="section-otros">
         <h2>Otros Proyectos</h2>
-        <p>Proyectos experimentales, prototipos o demos.</p>
+        <div class="media-row">
+          <img src="img/pipes2.png" alt="Imagen 1">
+          <img src="img/ositos.png" alt="Imagen 2">
+          <img src="img/limina2l .png" alt="Imagen 4">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rLochirt_Xs?si=c_DxWzrs_6rjo6XC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DP2xU19DSCf/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/DP2xU19DSCf/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/DP2xU19DSCf/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Una publicación compartida de maxito (@maxisamsa)</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+        </div>
       </div>
 
       <!-- CONTACTO -->

@@ -76,8 +76,8 @@
 .btn.html,
 .btn.javascript {
     padding: 10px 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -90,8 +90,7 @@
 .btn.python { background-color: #3776AB; }
 .btn.django { background-color: #092E20; }
 .btn.sql { background-color: #D9534F; }
-.btn.javascript { background-color: #0d7415; }
-.btn.html { background-color: #d3489e; }
+.btn.javascript { background-color: #31a13b; }
 
 /* Hover general */
 .btn:hover {
@@ -156,4 +155,51 @@ h1, h2, h3, p, nav, .projects, .filters {
 
 #misproyectos {
     color: #1b2bbb;
+}
+
+.Bienvenido {
+    font-size: 3rem;
+}
+
+/* imagenes intro */
+.horizontal-gallery {
+    display: flex;
+    justify-content: space-between; /* distribuye el espacio de manera homogénea */
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.horizontal-gallery img {
+    width: 30%; /* ajusta según necesites */
+    border-radius: 10px;
+}
+
+/* imagenessss*/
+
+.media-row {
+    display: flex;
+    flex-wrap: wrap;        /* Permite que bajen a otra fila si no caben */
+    gap: 20px;              /* Espacio entre imágenes */
+    justify-content: center;/* Centra todo horizontalmente */
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Imágenes responsivas */
+.media-row img {
+    max-width: 600px;       /* Tamaño máximo permitido */
+    width: 100%;            /* Se adapta al espacio disponible */
+    height: auto;           /* Mantiene proporción */
+    border-radius: 8px;     /* Opcional, bordes redondeados */
+    object-fit: contain;    /* Nunca recorta la imagen */
+}
+
+/* Video responsivo */
+.media-row iframe {
+    max-width: 500px;       /* Para que no sea gigante */
+    width: 100%;
+    aspect-ratio: 16/9;     /* Mantiene proporción del video */
+    border-radius: 8px;
+    border: none;
 }
