@@ -28,7 +28,8 @@ Me gusta crear **interfaces responsivas**, **ordenadas** y **claras**, uniendo d
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+
+[![Portafolio Web](https://img.shields.io/badge/🌐%20Ver%20Portafolio-000000?style=for-the-badge)](https://maxisamaa.github.io/portafolio/)
 
 ---
 
@@ -70,9 +71,3 @@ Código SQL puro para crear la estructura completa de un sistema gestor de tarea
 🔗 **Repositorio:** https://github.com/maxisamaa/portafolio-modulo-5
 
 ---
-
-# 🖼️ Vista del Portafolio Web
-
-> *(Opcional: agrega aquí una captura o GIF para mostrar tu sitio)*  
-
-Ejemplo:
