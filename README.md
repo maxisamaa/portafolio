@@ -60,9 +60,9 @@ Versión sencilla tipo IMDb: Películas, Detalles y Usuarios. Incluye autenticac
 
 ---
 
-## 🍽️ 5. Recetario con Autenticación (Django)
-Permite gestionar recetas, eventos y participantes, ideal para productoras culinarias o catering.  
-🔗 **Repositorio:** https://github.com/maxisamaa/portafolio-6-auth-
+## 🍽️ 5. Gestor de reclamos con autenticacion (Django)
+Permite gestionar reclamos con un sistema de permisos diferenciado , con usuarios staff y usuarios normales que pueden ver y hacer distintas cosas,ideal para empresas que deben gestionar cantidades grandes de solicitudes y cuentan con un personal jerarquizado.
+🔗 **Repositorio:** https://github.com/maxisamaa/gestor_reclamos
 
 ---
 
